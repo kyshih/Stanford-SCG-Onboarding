@@ -9,8 +9,13 @@ Email scg-action@lists.stanford.edu to request a user account and CC your PI in 
 
 ## How to access the SCG cluster?
 There are several ways of accessing to the cluster.
-1. SCG Ondemand
+1. SCG Ondemand https://ondemand.scg.stanford.edu/pun/sys/dashboard
   - It is a web-based interface to SCG cluster with GUI.
 2. SSH from the Terminal
   - from your terminal, ssh SUNetID@login.scg.stanford.edu. You can alias this command in your .zshrc or .bashrc files.
   - alias example: alias s="SUNetID@login.scg.stanford.edu"
+
+## How to check computing costs and stroage space?
+- To check quota on your home directory, run du -hs ~
+- To check your lab quota, run checkquota
+- To check your computing times and costs, run get_compute_charges [-u username] [-y 4-digit-year] [-m month] [-v] [-p]
